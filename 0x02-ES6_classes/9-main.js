@@ -6,4 +6,4 @@ const listPrinted = listOfStudents.map(
     student => student.fullStudentDescription
 );
 
-console.log(listPrinted)
+console.log(listPrinted);

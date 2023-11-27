@@ -1,0 +1,41 @@
+{
+    "name": "0x06-unittests_in_js",
+    "version": "1.0.0",
+    "description": "mocha testing",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha *.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Domengo/alx-backend-javascript.git"
+    },
+    "keywords": [
+        "testing"
+    ],
+    "author": "Dominic Sengo",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Domengo/alx-backend-javascript/issues",
+        "email": "dominicsengo@gmail.com"
+    },
+    "homepage": "https://github.com/Domengo/alx-backend-javascript#readme",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "chai": "^4.3.4",
+        "eslint": "^7.29.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-jest": "^22.17.0",
+        "express": "^4.18.2",
+        "mocha": "^8.2.1",
+        "nodemon": "^2.0.2",
+        "request": "2.88.0",
+        "sinon": "^15.1.2"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "package.json": "^2.0.1"
+    }
+}

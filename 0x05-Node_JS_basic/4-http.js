@@ -1,3 +1,4 @@
+/* eslint-disable jest/require-hook */
 const http = require('http');
 
 const PORT = 1245;
